@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: 'http://localhost:5173'
+  origin: 'https://elegant-lolly-c94bd9.netlify.app/'
 }));
 
 mongoose.connect(process.env.MONGO_URI)
